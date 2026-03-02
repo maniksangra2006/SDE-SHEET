@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-#include<algorithm>
+#include<algorithm>// kyuki max  reverse swap isi se hota hai
 using namespace std;
 void nxtpermu(vector<int> &arr,int n ){
       int k=-1;
