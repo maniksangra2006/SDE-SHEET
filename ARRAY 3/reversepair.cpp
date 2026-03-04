@@ -4,7 +4,7 @@ using namespace std;
 long long merge(vector<int>& nums, int low, int mid, int high){
   long long cnt=0;
   int right=mid+1;
-  for(int i=low;i<mid;i++){
+  for(int i=low;i<=mid;i++){
      while(right<=high && (long long)nums[i]>2LL* nums[right]){
         right++;
      }
