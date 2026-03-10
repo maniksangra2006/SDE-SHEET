@@ -32,14 +32,12 @@ Node* create(int n ){
     while(fast!=NULL && fast->next!=NULL){
         fast=fast->next->next;
         slow=slow->next;
-    
     if(slow==fast){
         Node* entry=head;
           while(entry!=slow){
             entry=entry->next;
             slow=slow->next;
           }
-        
           return entry;
         }
     }
